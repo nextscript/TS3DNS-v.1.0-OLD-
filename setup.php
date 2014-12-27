@@ -10,6 +10,17 @@
 			mkdir("includes", 0777);
 			chmod("databases", 0777);
 			chmod("includes", 0777);
+			
+		 $dateiname01 = "databases/index.php";
+		 $handler01 = fOpen($dateiname01 , "a+");
+		 fWrite($handler01 , '');
+		 fClose($handler01); 
+		 
+		 $dateiname02 = "includes/index.php"; 
+		 $handler02 = fOpen($dateiname02 , "a+");
+		 fWrite($handler02 , '');
+		 fClose($handler02);
+		 
 		}
 		?>
 		<style type="text/css">

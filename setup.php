@@ -20,7 +20,7 @@
 		 $handler02 = fOpen($dateiname02 , "a+");
 		 fWrite($handler02 , '');
 		 fClose($handler02);
-		 
+		
 		}
 		?>
 		<style type="text/css">

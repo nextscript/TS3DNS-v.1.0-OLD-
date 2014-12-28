@@ -35,8 +35,8 @@
 					<body style="background:transparent" >	
 						<div  class="container-fluid" style="position:relative; top:100px;" >
 							<div class="row">
-								<div class="col-md-2"></div>
-									<div class="col-md-8">
+								<div class="col-md-3"></div>
+									<div class="col-md-6">
 									
 									<form id="signupform" class="form-horizontal" method="POST" action="create.php">
 										
@@ -72,7 +72,7 @@
 										
 									</div>
 							</div>
-							<div class="col-md-2"></div>
+							<div class="col-md-3"></div>
 							</div>
 						
 					</body>					

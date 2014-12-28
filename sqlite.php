@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="http://res.cloudinary.com/fredy007/raw/upload/IWN5/bootstrap.css" />
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
   </head>
-  <body>
+ <body style="background:transparent">
   
 
    
@@ -42,18 +42,18 @@ try {
 			echo '<p>
 			
 			
-			<div class="container-fluid"><div class="row"><div class="col-md-3"></div>
-			<div class="col-md-6"><div class="container-fluid">
+			<div class="container-fluid"><div class="row"><div class="col-md-2"></div>
+			<div class="col-md-8"><div class="container-fluid">
 			<div class="alert alert-danger" role="alert">REQUEST USERNAME</div>
-			</div><div class="col-md-3"></div></div></div>
+			</div><div class="col-md-2"></div></div></div>
 			
 			</p>
 						';
 						
 			echo '<div style="border: 0px solid#888;" class="container-fluid">
 	<div class="row">
-		<div class="col-md-3"></div>
-		<div class="col-md-6">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
 			 <div style="border: 0px solid#888;" class="container-fluid">
 			 
 							 
@@ -89,7 +89,7 @@ try {
 										<button type="submit" name=submit value="Create" class="btn btn-default">Create</button>
 										<span style="margin-left:8px;"></span>
 										</div>
-										</div></form><div class="col-md-3"></div>
+										</div></form><div class="col-md-2"></div>
 
 </div>';
 				exit;
@@ -100,10 +100,10 @@ try {
 			echo '<p>
 			
 							
-			<div class="container-fluid"><div class="row"><div class="col-md-3"></div>
-			<div class="col-md-6"><div class="container-fluid">
+			<div class="container-fluid"><div class="row"><div class="col-md-2"></div>
+			<div class="col-md-8"><div class="container-fluid">
 			<div class="alert alert-danger" role="alert">REQUEST PASSWORD</div>
-			</div><div class="col-md-3"></div></div></div>
+			</div><div class="col-md-2"></div></div></div>
 					
 				
 						</p>
@@ -111,8 +111,8 @@ try {
 						
 			echo '<div style="border: 0px solid#888;" class="container-fluid">
 	<div class="row">
-		<div class="col-md-3"></div>
-		<div class="col-md-6">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
 			 <div style="border: 0px solid#888;" class="container-fluid">
 			 
 							 
@@ -148,7 +148,7 @@ try {
 										<button type="submit" name=submit value="Create" class="btn btn-default">Create</button>
 										<span style="margin-left:8px;"></span>
 										</div>
-										</div></form><div class="col-md-3"></div>
+										</div></form><div class="col-md-2"></div>
 
 </div>';
 				exit;
@@ -158,18 +158,18 @@ try {
             {
 			echo '<p>
 			
-			<div class="container-fluid"><div class="row"><div class="col-md-3"></div>
-			<div class="col-md-6"><div class="container-fluid">
+			<div class="container-fluid"><div class="row"><div class="col-md-2"></div>
+			<div class="col-md-8"><div class="container-fluid">
 			<div class="alert alert-danger" role="alert">REQUEST EMAIL</div>
-			</div><div class="col-md-3"></div></div></div>
+			</div><div class="col-md-2"></div></div></div>
 			
 			</p>
 						';
 						
 			echo '<div style="border: 0px solid#888;" class="container-fluid">
 	<div class="row">
-		<div class="col-md-3"></div>
-		<div class="col-md-6">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
 			 <div style="border: 0px solid#888;" class="container-fluid">
 			 
 							 
@@ -205,7 +205,7 @@ try {
 										<button type="submit" name=submit value="Create" class="btn btn-default">Create</button>
 										<span style="margin-left:8px;"></span>
 										</div>
-										</div></form><div class="col-md-3"></div>
+										</div></form><div class="col-md-2"></div>
 
 </div>';
 				exit;
@@ -219,10 +219,10 @@ try {
 			}else{
 			echo '<p>
 			
-			<div class="container-fluid"><div class="row"><div class="col-md-3"></div>
-			<div class="col-md-6"><div class="container-fluid">
+			<div class="container-fluid"><div class="row"><div class="col-md-2"></div>
+			<div class="col-md-8"><div class="container-fluid">
 			<div class="alert alert-danger" role="alert">Username is already used!</div>
-			</div><div class="col-md-3"></div></div></div>		
+			</div><div class="col-md-2"></div></div></div>		
 				
 				
 				
@@ -230,15 +230,11 @@ try {
 						';
 			echo '<div class="container-fluid">
 	<div class="row">
-		<div class="col-md-3"></div>
-		<div class="col-md-6">
-			 <div class="container-fluid">
-			 <div class="panel panel-default">
-							 <div class="navbar navbar-inverse" role="navigation" style="padding: 0px;  border-radius: 0px;"  > 
-							 <a class="navbar-brand" ><span></span>&nbsp;TS3DNS</a> 
-						
-							 </div>
-							  <table class="table table-bordered table-hover">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			 <div style="border: 0px solid#888;" class="container-fluid">
+			 
+							  <table class="table table-hover">
 								<thead>
 								  <tr >
 									<th><center><form id="signupform" class="form-horizontal" method="POST" action="index.php?id=add">
@@ -270,7 +266,7 @@ try {
 										<button type="submit" name=submit value="Create" class="btn btn-default">Create</button>
 										<span style="margin-left:8px;"></span>
 										</div>
-										</div></form><div class="col-md-3"></div>
+										</div></form><div class="col-md-2"></div>
 	</div>
 </div>';
 			exit;
@@ -285,24 +281,20 @@ try {
 			}else{
 			echo '<p>
 			
-			<div class="container-fluid"><div class="row"><div class="col-md-3"></div>
-			<div class="col-md-6"><div class="container-fluid">
+			<div class="container-fluid"><div class="row"><div class="col-md-2"></div>
+			<div class="col-md-8"><div class="container-fluid">
 			<div class="alert alert-danger" role="alert">Email is already used!</div>
-			</div><div class="col-md-3"></div></div></div>			
+			</div><div class="col-md-2"></div></div></div>			
 				
 						</p>
 						';
 			echo '<div class="container-fluid">
 	<div class="row">
-		<div class="col-md-3"></div>
-		<div class="col-md-6">
-			 <div class="container-fluid">
-			 <div class="panel panel-default">
-							 <div class="navbar navbar-inverse" role="navigation" style="padding: 0px;  border-radius: 0px;"  > 
-							 <a class="navbar-brand" ><span></span>&nbsp;TS3DNS</a> 
-						
-							 </div>
-							  <table class="table table-bordered table-hover">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			 <div style="border: 0px solid#888;" class="container-fluid">
+
+							  <table class="table  table-hover">
 								<thead>
 								  <tr >
 									<th><center><form id="signupform" class="form-horizontal" method="POST" action="index.php?id=add">
@@ -334,7 +326,7 @@ try {
 										<button type="submit" name=submit value="Create" class="btn btn-default">Create</button>
 										<span style="margin-left:8px;"></span>
 										</div>
-										</div></form><div class="col-md-3"></div>
+										</div></form><div class="col-md-2"></div>
 	</div>
 </div>';
             }
@@ -376,10 +368,10 @@ catch(PDOException $e)
   
   echo '<p>
 		
-			<div class="container-fluid"><div class="row"><div class="col-md-3"></div>
-			<div class="col-md-6"><div class="container-fluid">
+			<div class="container-fluid"><div class="row"><div class="col-md-2"></div>
+			<div class="col-md-8"><div class="container-fluid">
 			<div class="alert alert-success" role="alert">Your Account is ready to use!</div>
-			</div><div class="col-md-3"></div></div></div>				
+			</div><div class="col-md-2"></div></div></div>				
 				
 					
 				

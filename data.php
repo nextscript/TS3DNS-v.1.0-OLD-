@@ -48,7 +48,7 @@ try {
 
 $db = new PDO('sqlite:databases/db1.sqlite');
 $user= $_POST["username"];
-$pass= md5($_POST["password"]);
+$pass= md5(md5($_POST["password"]));
 
  
 		

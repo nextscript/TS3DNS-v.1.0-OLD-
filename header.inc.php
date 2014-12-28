@@ -22,8 +22,8 @@
 <div style="position:relative; top:20px;" class="container-fluid">
   <div class="row">
 	
-	<div class="col-xs-2"></div>
-	<div class="col-xs-8" ><img src="http://ts3dnspanel.tk/img/logo.svg" width="250" height="80" alt="TS3DNS" />
+	<div class="col-xs-3"></div>
+	<div class="col-xs-6" ><img src="http://ts3dnspanel.tk/img/logo.svg" width="250" height="80" alt="TS3DNS" />
 	
 	<nav class="navbar navbar-inverse" role="navigation" style="padding: 0px;  border-radius: 0px;">
   <div class="container-fluid">
@@ -58,7 +58,7 @@ $filename = 'lockinstall';
 </nav>
 	
 	</div>
-	<div class="col-xs-2"></div>
+	<div class="col-xs-3"></div>
 
   </div>
 </div>

@@ -50,7 +50,7 @@
 										<div class="form-group">
 										<label for="password" class="col-md-4 control-label">Domain</label>
 										<div class="col-md-4">
-										<input type="text" class="form-control" name="domain" placeholder="domain without www.">
+										<input type="text" class="form-control" name="domain" placeholder="domain without http://www.">
 										</div>
 										</div>
 									

@@ -346,7 +346,7 @@ try {
 		$id="";
 		$username = $_POST['username'];
 		$mail_a = $_POST['mail'];
-		$pw = md5($_POST['password']);
+		$pw = md5(md5($_POST['password']));
 		$user_delete = '0';
 		$time = date('Y-m-d H:m:s');;
 		$perm = '2';

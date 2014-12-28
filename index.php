@@ -85,8 +85,8 @@ include('header.inc.php');
 
 	<div style="position:relative; top:20px;"  class="container-fluid">
 	 <div class="row">
-	<div class="col-xs-2"></div>
-	<div class="col-xs-8">
+	<div class="col-xs-3"></div>
+	<div class="col-xs-6">
 	
 		<div class="well" style=" padding: 0px;  border-radius: 0px; position:relative; top:-10px; border: 0px; ">	
 			
@@ -119,7 +119,7 @@ $filename = 'lockinstall';
 		
 	
 	</div>
-	<div class="col-xs-2"></div>
+	<div class="col-xs-3"></div>
 
 </div>
 	</div>

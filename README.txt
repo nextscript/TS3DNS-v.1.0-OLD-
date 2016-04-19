@@ -7,7 +7,7 @@ _______________________________________________________________________________
 3.) use the index.php and push "Create NOW" to get a Hosting folder.
 4.) now push the SETUP GO button if you have all data together.
 5.) use "all files" of the "new folder" on your server as "main files" and replaced this.
-5.) have fun!
+5.) have fun! 
 _______________________________________________________________________________
 
 

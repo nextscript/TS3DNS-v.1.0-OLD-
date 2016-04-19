@@ -1,13 +1,12 @@
 
 <?
 if($_GET["id"] == "panel"){
-
-}elseif($_GET["id"]== 'login'){
-}elseif($_GET["id"]== 'add'){
-}elseif($_GET["id"]== 'check'){
-}elseif($_GET["id"]== 'complete'){
-}elseif($_GET["id"]== 'apply'){
-}elseif($_GET["id"]== 'success'){
+}elseif($_GET["id"]== "login"){
+}elseif($_GET["id"]== "add"){
+}elseif($_GET["id"]== "check"){
+}elseif($_GET["id"]== "complete"){
+}elseif($_GET["id"]== "apply"){
+}elseif($_GET["id"]== "success"){
 }else{
 
 include('header.inc.php'); 
@@ -69,7 +68,7 @@ include('header.inc.php');
 	$command->execute();
 	}else{
 	}
-	error_reporting(0);
+	error_reporting(E_ALL);
 	
 	?>
 
@@ -104,7 +103,7 @@ $filename = 'lockinstall';
 		
 		}
 		
-		if($_GET["go"] == 'create'){
+		if($_GET["go"] == "create"){
 		
 		$length = 5;
 		$randomid = substr(str_shuffle("0123456789"), 0, $length);

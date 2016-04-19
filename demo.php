@@ -36,7 +36,7 @@
        
 
     <iframe width="100%" src="index.php?id=panel" 
-    scrolling="no" id="the_iframe" onLoad="calcHeight();" height="1px" frameborder="0" ></iframe>
+    scrolling="no" id="the_iframe" onLoad="calcHeight();" height="500px" frameborder="0" ></iframe>
  
 			
 			
@@ -63,7 +63,7 @@ $phpfad=substr($datei,0,strrpos($datei,"/")+1); // mit Slash am Ende , ohne +1 =
 // schneidet alles dahinter ab mit substr
 
 echo 'http://'.$server.$phpfad.'';?>index.php?id=panel" 
-    scrolling="no" id="the_iframe" onLoad="calcHeight();" height="450px" frameborder="0" ></iframe>
+    scrolling="no" id="the_iframe" onLoad="calcHeight();" height="500px" frameborder="0" ></iframe>
 </textarea></center>
 		</div>
 	

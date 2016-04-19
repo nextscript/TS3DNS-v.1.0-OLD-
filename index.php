@@ -1,12 +1,12 @@
 
 <?
 if($_GET["id"] == "panel"){
-}elseif($_GET["id"]== "login"){
-}elseif($_GET["id"]== "add"){
-}elseif($_GET["id"]== "check"){
-}elseif($_GET["id"]== "complete"){
-}elseif($_GET["id"]== "apply"){
-}elseif($_GET["id"]== "success"){
+}elseif($_GET["id"] == "login"){
+}elseif($_GET["id"] == "add"){
+}elseif($_GET["id"] == "check"){
+}elseif($_GET["id"] == "complete"){
+}elseif($_GET["id"] == "apply"){
+}elseif($_GET["id"] == "success"){
 }else{
 
 include('header.inc.php'); 

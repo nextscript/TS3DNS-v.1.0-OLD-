@@ -9,6 +9,7 @@ if (!extension_loaded('gd')) {
 }else{
 echo "PHP5-GD IS INSTALLED";
 }
+
 echo '</br>';
 if (extension_loaded('sqlite3')) {
    echo 'PHP5-SQLITE IS INSTALLED';
@@ -68,4 +69,10 @@ if(!isset($_GET['reload']) OR $_GET['reload'] != 'true') {
       echo 'Sorry, it appears session support is not enabled, or you PHP version is to old. <a href="?reload=false">Click HERE</a> to go back.<p />';
    }
 }
+echo '<br /> <b>Setup Infos:</b><hr />
+Open your PHP configuration php.ini file and find the word  "session.auto_start" and be ensure the config set to "On"!<p>
+<b>session.auto_start=On</b>
+';
+echo '<br>';
+
 ?>

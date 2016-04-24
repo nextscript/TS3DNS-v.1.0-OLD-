@@ -1,4 +1,5 @@
 <?php
+ob_start();
 echo '<b>Module Installed?:</b><hr />';
 if (!extension_loaded('gd')) {
     if (!dl('gd.so')) {

@@ -41,7 +41,12 @@ else{
    echo 'Headers_sent IS WORKING';
 }
 echo '</p>';
+$datei=$_SERVER['SCRIPT_NAME'];
 
+$phpfad=substr($datei,0,strrpos($datei,"/")+1);
+echo '<b>Permissions Checker</b><hr />';
+echo 'Folder database '.substr(decoct(fileperms(databases)), -4).'<br>'; // 0777
+echo 'Folder includes '.substr(decoct(fileperms(includes)), -4).'<p>'; // 0777
 
 
 // Start Session

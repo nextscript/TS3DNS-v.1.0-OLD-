@@ -16,5 +16,6 @@ _______________________________________________________________________________
 	
 _______________________________________________________________________________
 
-Live: http://ts3dnspanel.tk/u_60724/index.php?id=demo
+Live #1: http://ts3dnspanel.tk/u_60724/index.php?id=demo  <= hosting: Virtual Private Server (ovh)
+Live #2: http://dns4me.rf.gd/u_65874/index.php?id=demo  <= hosting: https://infinityfree.net/
 _______________________________________________________________________________

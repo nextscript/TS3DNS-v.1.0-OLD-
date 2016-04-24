@@ -34,12 +34,6 @@ if (_is_curl_installed()) {
   echo "PHP5-CURL IS NOT INSTALLED";
 }
 echo '</p><b>Function Enabled?:</b><hr />';
-if(function_exists('exec')) {
-    echo "EXEC IS Enabled";
-}else{
-	echo "EXEC IS Disabled";
-}
-echo '</br>';
 if (headers_sent()) {
     die("Headers_sent NOT WORKS");
 }

@@ -23,7 +23,7 @@
   <div class="row">
 	
 	<div class="col-xs-2"></div>
-	<div class="col-xs-8" ><img src="http://ts3dnspanel.tk/img/logo.svg" width="250" height="80" alt="TS3DNS" /></div>
+	<div class="col-xs-8" ><img src="http://ts3dnspanel.ml/img/logo.svg" width="250" height="80" alt="TS3DNS" /></div>
 	<div class="col-xs-2"></div>
 
   </div>

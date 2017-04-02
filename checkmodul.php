@@ -1,5 +1,11 @@
 <?php
-ob_start();
+echo '<b>PHP Version 5.6 or higher?:</b><hr />';
+$ver = (float)phpversion();
+if ($ver == '5.6') {
+echo 'PHP ' . $ver . '.x  INSTALLED<hr />';
+}else{
+echo 'Please Update your PHP Version!<hr />';
+}
 echo '<b>Module Installed?:</b><hr />';
 if (!extension_loaded('gd')) {
     if (!dl('gd.so')) {

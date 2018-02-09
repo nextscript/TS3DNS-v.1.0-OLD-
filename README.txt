@@ -17,5 +17,5 @@ _______________________________________________________________________________
 	
 _______________________________________________________________________________
 
-Live: http://ts3dnspanel.ml/u_46715/index.php?id=demo  <= hosting: Virtual Private Server (ovh)
+Live: http://ts3dnspanel.tk/u_46715/index.php?id=demo  <= hosting: Virtual Private Server (ovh)
 _______________________________________________________________________________ 

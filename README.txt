@@ -1,4 +1,9 @@
-	How to use this Script?
+#########################################################
+# Don´t work anymore, Cloudflare have a new API Version #
+#########################################################
+
+
+How to use this Script?
 
 _______________________________________________________________________________
 
@@ -9,13 +14,4 @@ _______________________________________________________________________________
 5.) now push the SETUP GO button if you have all data together.
 6.) use "all files" of the "new folder" on your server as "main files" and replaced this.
 7.) have fun! 
-_______________________________________________________________________________
-
-
-
-	DEMO !!!
-	
-_______________________________________________________________________________
-
-Live: http://ts3dnspanel.tk/u_46715/index.php?id=demo  <= hosting: Virtual Private Server (ovh)
 _______________________________________________________________________________ 
